@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luxurious Hotels</title>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+      <!------HEADER------> 
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>LUXURIOUS </span>HOTEL</a>
+        <nav class="navbar">
+            <a href="#HOME">HOME</a>
+            <a href="#BOOK">BOOK</a>
+            <a href="#PACKAGES">PACKAGES</a>
+            <a href="#SERVICES">SERVICES</a>
+            <a href="#GALLERY">GALLERY</a>
+            <a href="#REVIEW">REVIEW</a>
+            <a href="#CONTACT">CONTACT</a>
+
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search Here....">
+            <label for="search-bar"class="fas fa-search"></label>
+        </form>
+    </header> 
+
+    <!--login form container-->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember" >
+            <label for="remember">Remember me</label>
+            <p>forgot password? <a href="#">click here</a></p>
+            <p>Don't have an account <a href="#">Register now</a></p>
+        </form>
+    </div>
+
+
+
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="content">
+        <h3>welcome to A global icon of luxury</h3>
+        <p>discover new places with us, luxury awaits</p>
+        <a href="#" class="btn">discover more</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+
+    <!--home section ends-->
+
+
+      <!--book section starts-->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="img">
+                <img src="images/img1.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place-name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+
+            </form>
+        </div>
+    </section>
+    <!--book section ends-->
+
+
+
+    <!--package section starts-->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/bangalore.webp" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> bangalore </h3>
+                    <p>Bangalore, or Bengaluru, is the “Silicon Valley of India” and is also famous for its natural charm owing to several green parks surrounding the city. This capital city of Karnataka is full of energy as it is a beautiful amalgamation of culture and modernity!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> Rs.20,000<span> Rs.25,000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/delhi.webp" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> delhi </h3>
+                    <p>Delhi is of great historical significance as an important commercial, transport, and cultural hub, as well as the political centre of India. According to legend, the city was named for Raja Dhilu, a king who reigned in the region in the 1st century bce.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> Rs.30,000<span> Rs.32,000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gujarat.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> gujarat </h3>
+                    <p>It is renowned for its beaches, temple towns and historic capitals. Wildlife sanctuaries, hill resorts and natural grandeur are gifts of Gujarat. Sculpture, handicrafts, arts, festivals also make the state rich.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> Rs.40,000<span> Rs.45,000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/hyderabad.webp" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> hyderabad </h3>
+                    <p>Hyderabad is known as the City of Pearls, as it had once flourished as a global center for trade of rare diamonds, emeralds as well as natural pearls. Mecca Masjid, Charminar, Golconda fort, QutubShahi tombs, Paigah tombs are some of the historic structures.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> Rs.30,000<span> Rs.35,000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/kerala.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> kerala </h3>
+                    <p>Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is one of the prominent tourist destinations of India, with coconut-lined sandy beaches, backwaters, hill stations, Ayurvedic tourism and tropical greenery as its major attractions.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> Rs.25,000<span> Rs.30,000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/mumbai.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                    <p>Mumbai, one of the major cosmopolitan cities in India, is a popular tourist attraction. It is primarily famous for large markets, mesmerising beaches, towering buildings, and exquisite five-star hotels.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> Rs.30,000<span> Rs.32,000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--package section ends-->  
+
+
+    <!--service section starts-->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>A budget hotel (or economy hotel) is a small to midsize property that offers basic facilities and services for a low price. In terms of hotel star ratings, 1- and 2-star hotels are considered budget accommodations.</p>
+
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Food and beverage service, also known as F&B service, is the name for offering dining or drinks to customers. If you're looking to work in hospitality, you might be considering a management career in F&B service, or you might be looking at roles where you would need a thorough understanding of the F&B industry.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Hotel security is the management of the safety of guests and property in hotels, lodgings and entertainment facilities. It involves procedures, systems and personnel that ensure guests are safe in their rooms and around the venue and that their property and vehicles are secure.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around India</h3>
+            <p>India has about 53,000 hotels and 70 lakh restaurants in organised category and 2.3 crore restaurants in unorganised sector, says this apex body of Indian hospitality industry. With corona crippling the travel sector, the aviation and hospitality sectors were among the first to feel its impact.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3>FASTER TRAVEL</h3>
+                <p>The hospitality and tourism industry is a vast sector that includes all the economic activities that directly or indirectly contribute to, or depend upon, travel and tourism. This industry sector includes: Hotels & Resorts. Restaurants & Catering. Night Clubs & Bars.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+                <h3>ADVENTURE</h3>
+                <p>Adventure tourism is a type of tourism in which tourists engage in adventure activities such as trekking, climbing, rafting, scuba diving, or the likes. Adventure tourism gains much of its excitement by allowing the tourist to step outside their comfort zone.</p>
+
+        </div>
+    </section>
+
+
+
+    <!--sertvice section ends-->
+
+
+
+
+    <!--gallery section starts-->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/ad1.webp" alt="">
+                <div class="content">
+                <h3>amazing places</h3>
+                    <p>Kayaking is a watersport that involves sitting in a small watercraft, propelling yourself through water. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ad2.webp" alt="">
+                <div class="content">
+                <h3>amazing places</h3>
+                    <p>Paragliding is a type of extreme sport found in the early 1980s by people interested in aerial sports, and it allows one to run off the slopes with free parachutes.  </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ad3.webp" alt="">
+                <div class="content">
+                <h3>amazing places</h3>
+                    <p>Wakeskating is a water sport and an adaptation of wakeboarding that employs a similar design of board manufactured from maple or fibreglass. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ad4.jpeg" alt="">
+                <div class="content">
+                <h3>amazing places</h3>
+                    <p>Trekking is the activity of walking long distances on foot for pleasure</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ad5.jpeg" alt="">
+                <div class="content">
+                <h3>amazing places</h3>
+                    <p>Mountain climbing is an expedition that brings you closer to nature and helps you connect with it closely.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ad6.jpeg" alt="">
+                <div class="content">
+                <h3>amazing places</h3>
+                    <p>Diving, sport of plunging into water, usually head foremost, performed with the addition of gymnastic and acrobatic stunts.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ad7.jpeg" alt="">
+                <div class="content">
+                <h3>amazing places</h3>
+                    <p>Tent stays, as the name suggests, are accommodations created in tents.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ad8.webp" alt="">
+                <div class="content">
+                <h3>amazing places</h3>
+                    <p>Off roading designed to be used on trails or dirt roads. Off-road vehicles are prohibited on the beach</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+
+    <!--gallery section ends-->
+
+    <!--review section starts-->
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper mySwiper review-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="slider swiper-slide">
+                    <div class="box">
+                        <img src="images/p1.webp" alt="">
+                        <h3>Vicky</h3>
+                        <p>Nice experience with this hotel.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p2.jpeg" alt="">
+                        <h3>dhruv</h3>
+                        <p>Nice experience. Food and security was very good.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p3.jpeg" alt="">
+                        <h3>arjun</h3>
+                        <p>Enjoyed all the activities provided by Luxurious hotels. </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p4.jpeg" alt="">
+                        <h3>susan</h3>
+                        <p>Best package provided by Luxurious hotel</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p5.webp" alt="">
+                        <h3>ashok</h3>
+                        <p>Good experience</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/p6.webp" alt="">
+                        <h3>kajal</h3>
+                        <p>Best hotel i suggest</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--review secton ends-->
+
+    <!--contact section-->
+
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="img">
+                <img src="images/contact.jpeg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            
+            
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!--brand section-->
+    <section class="brand-container">
+        <div class="brand-slider">
+            <div class="wrapper">
+                <div class="slider"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--footer section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>The Luxurious Group is a luxury hotel group with its head office in New Delhi, India. Founded in 1934, the company owns and operates 32 luxury hotels and two river cruise ships in 7 countries, primarily under its Luxurious Hotels & Resorts and Trident brands.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">bangalore</a>
+                <a href="#">delhi</a>
+                <a href="#">gujarat</a>
+                <a href="#">hyderabad</a>
+                <a href="#">kerala</a>
+                <a href="#">mumbai</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <h1 class="credit"> created by <span>DEEPAK N C</span> | all rights reserved!! |</h1>
+    </section>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
